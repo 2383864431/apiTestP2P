@@ -1,0 +1,6 @@
+2022-04-09 19:32:27,690 INFO [root] [__init__.py(<module>:5)] - info
+2022-04-09 19:32:27,690 ERROR [root] [__init__.py(<module>:6)] - error
+2022-04-09 19:32:28,218 INFO [root] [tender.py(setUp:17)] - login response={'status': 200, 'description': '登录成功'}
+2022-04-09 19:33:27,777 INFO [root] [__init__.py(<module>:5)] - info
+2022-04-09 19:33:27,777 ERROR [root] [__init__.py(<module>:6)] - error
+2022-04-09 19:33:28,180 INFO [root] [tender.py(setUp:17)] - login response={'status': 200, 'description': '登录成功'}

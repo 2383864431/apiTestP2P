@@ -13,8 +13,9 @@ suite.addTest(unittest.makeSuite(approve))
 suite.addTest(unittest.makeSuite(trust))
 suite.addTest(unittest.makeSuite(tender))
 suite.addTest(unittest.makeSuite(test_tender_process))
-
-report_file = app.BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+#按照时间，生成测试报告，其名称以时间区分，但是在Jenkins中，要使用固定的名称
+# report_file = app.BASE_DIR + "/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report_file = app.BASE_DIR + "/report/report.html"
 with open(report_file,'wb') as f:
     runner = HTMLTestRunner(f,title="P2P金融项目接口测试报告",description="test")
     runner.run(suite)
